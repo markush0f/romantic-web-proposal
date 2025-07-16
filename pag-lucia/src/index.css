@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+    /* rosa pastel */
+    --color-bg: #ffe4ec;
+    /* rosa fuerte */
+    --color-strong-pink: #ff4da6;
+    /* rosa medio */
+    --color-medium-rosa: #fcb3d3;
+    background-color: var(--color-bg);
+
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(110vh);
+        opacity: 0;
+    }
+}
+
+.animate-fall {
+    animation: fall 6s linear infinite;
+}
