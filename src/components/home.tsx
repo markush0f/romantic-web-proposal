@@ -48,11 +48,6 @@ export default function Home({ setFirstScreenVisible }: Props) {
                 <span className="flex-1 text-center">
                     Tengo algo para ti... 💖
                 </span>
-                <Play
-                    width={20}
-                    height={20}
-                    className="sm:w-[28px] sm:h-[28px] lg:w-[34px] lg:h-[34px]"
-                />
             </motion.button>
         </motion.div>
     );
